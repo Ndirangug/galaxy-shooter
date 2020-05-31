@@ -1,0 +1,48 @@
+.download{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.download li{
+    margin: 0 1em 0.2em 0;
+}
+
+#notice{
+    margin-top: 1em;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited{
+    color: white;
+}
+
+.jumbotron .container{
+    background: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+}
+
+.jumbotron{
+    background-color: black;
+    background: url("../img/SpaceBG_Overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    color: wheat;
+}
+
+.jumbotron p{
+    color: white;
+}
+
+.my-2{
+    /* border: 0.1pt white solid; */
+    
+}
